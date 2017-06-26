@@ -1,13 +1,13 @@
 #
 # The tools use hardlinks from /usr/bin to /usr/lib/x86_64-linux-musl
 #
-binutils-amd64-linux-musl binary: package-contains-hardlink
+binutils-x86-64-linux-musl binary: package-contains-hardlink
 #
 # Warnings about lines that can't be wrapped aren't errors, but
 # lintian can't tell that
 #
-binutils-amd64-linux-musl binary: manpage-has-errors-from-man
+binutils-x86-64-linux-musl binary: manpage-has-errors-from-man
 #
 # ld.bfd has no manual
 #
-binutils-amd64-linux-musl binary: binary-without-manpage
+binutils-x86-64-linux-musl binary: binary-without-manpage

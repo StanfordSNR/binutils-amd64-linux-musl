@@ -1,4 +1,4 @@
-Source: binutils-amd64-linux-musl
+Source: binutils-x86-64-linux-musl
 Section: devel
 Priority: extra
 Maintainer: Keith Winstein <keithw@cs.stanford.edu>
@@ -22,7 +22,7 @@ Build-Depends:
 Standards-Version: 3.9.6
 HomePage: https://sourceware.org/binutils/
 
-Package: binutils-amd64-linux-musl
+Package: binutils-x86-64-linux-musl
 Architecture: any
 Built-Using: ${Built-Using}
 Depends: ${misc:Depends}, ${shlibs:Depends}

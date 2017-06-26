@@ -3,7 +3,7 @@ export DH_VERBOSE=1
 
 target=x86_64-linux-musl
 
-package=binutils-amd64-linux-musl
+package=binutils-x86-64-linux-musl
 top_dir=$(shell pwd)
 binutils_dir=/usr/src/binutils
 stampdir=debian/stamp

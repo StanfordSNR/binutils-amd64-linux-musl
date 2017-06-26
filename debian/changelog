@@ -1,4 +1,4 @@
-binutils-amd64-linux-musl (1) unstable; urgency=medium
+binutils-x86-64-linux-musl (1) unstable; urgency=medium
 
   * Forked binutils-arm-none-eabi
 
