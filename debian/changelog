@@ -1,56 +1,5 @@
-binutils-arm-none-eabi (7) experimental; urgency=medium
+binutils-amd64-linux-musl (1) unstable; urgency=medium
 
-  [ Thomas Preud'homme ]
-  * New upstream release: 4.9-2014-q4-major.
+  * Forked binutils-arm-none-eabi
 
- -- Agustin Henze <tin@debian.org>  Sat, 10 Jan 2015 13:23:01 -0300
-
-binutils-arm-none-eabi (6) experimental; urgency=medium
-
-  [ Thomas Preud'homme ]
-  * New upstream release: 4.8-2014-q3-update.
-  * Add myself to Uploaders.
-
-  [ Agustin Henze ]
-  * Disable testsuite
-  * Bumped Standard-Version to 3.9.6 (no changes required)
-
- -- Agustin Henze <tin@debian.org>  Mon, 01 Dec 2014 09:38:49 -0300
-
-binutils-arm-none-eabi (5) unstable; urgency=medium
-
-  * New upstream release (2.24.51)
-  * Add built-using field
-  * Add build dependencies libisl-dev and libcloog-isl-dev
-
- -- Agustin Henze <tin@debian.org>  Fri, 13 Jun 2014 14:21:25 -0300
-
-binutils-arm-none-eabi (4) unstable; urgency=medium
-
-  * Bumped Standard-Version to 3.9.5 (no changes required)
-  * Add myself as Maintainer
-  * Improvements on package Description
-  * Enable interwork support
-  * Add HomePage and Vcs* fields
-  * Fix target installchangelogs
-  * New upstream release (2.24)
-
- -- Agustin Henze <tin@debian.org>  Fri, 03 Jan 2014 13:48:29 -0300
-
-binutils-arm-none-eabi (3) unstable; urgency=low
-
-  * Move ldscripts to /usr/lib/arm-none-eabi
-
- -- Keith Packard <keithp@keithp.com>  Tue, 15 Oct 2013 23:43:18 -0700
-
-binutils-arm-none-eabi (2) unstable; urgency=low
-
-  * Fix lintian errors
-
- -- Keith Packard <keithp@keithp.com>  Tue, 15 Oct 2013 21:25:01 -0700
-
-binutils-arm-none-eabi (1) unstable; urgency=low
-
-  * Initial release.
-
- -- Keith Packard <keithp@keithp.com>  Sun, 18 Aug 2013 02:49:03 +0200
+ -- Keith Winstein <keithw@cs.stanford.edu>  Mon, 26 Jun 2017 03:22:48 -0700

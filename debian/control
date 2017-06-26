@@ -1,9 +1,7 @@
-Source: binutils-arm-none-eabi
+Source: binutils-amd64-linux-musl
 Section: devel
 Priority: extra
-Maintainer: Agustin Henze <tin@debian.org>
-Uploaders: Keith Packard <keithp@keithp.com>,
-           Thomas Preud'homme <thomas.preudhomme@arm.com>
+Maintainer: Keith Winstein <keithw@cs.stanford.edu>
 Build-Depends:
  binutils-source,
  debhelper (>= 8.0.0),
@@ -20,17 +18,14 @@ Build-Depends:
  zlib1g-dev,
  libisl-dev,
  libcloog-isl-dev,
+ musl-dev
 Standards-Version: 3.9.6
 HomePage: https://sourceware.org/binutils/
-Vcs-Git: git://anonscm.debian.org/collab-maint/binutils-arm-none-eabi.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/binutils-arm-none-eabi.git
 
-Package: binutils-arm-none-eabi
+Package: binutils-amd64-linux-musl
 Architecture: any
 Built-Using: ${Built-Using}
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: GNU assembler, linker and binary utilities for ARM Cortex-A/R/M processors
- Bare metal binutils for embedded ARM chips using Cortex-M0/M0+/M3/M4,
- Cortex-R4/R5/R7 and Cortex-A* processors. The programs in this package are used
- to manipulate binary and object files that may have been created for Cortex
- architecture.
+Description: GNU assembler, linker and binary utilities for x86_64-linux-musl
+ The programs in this package are used to compile a gcc and g++ cross-compiler
+ from x86_64-linux-gnu to x86_64-linux-musl.
